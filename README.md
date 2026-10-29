@@ -4,8 +4,11 @@
 Este repositorio contiene el proyecto del sistema de registro de mercadería a presentar como Trabajo Práctico Integrador de la materia Organización Empresarial del primer semestre de la Tecnicatura Universitaria en Programación a Distancia (TUPaD) de la Universidad Tecnológica Nacional (UTN) del año 2026.
 
 **Asignatura:** Organización Empresarial 
+
 **Carrera:** Tecnicatura Universitaria en Programación a Distancia (TUP AD) — Universidad Tecnológica Nacional (UTN)
+
 **Alumno:** Emiliano José Millan
+
 **Docentes:** Prof. Gabriela Martínez (Titular), Prof. Mario Raúl López, Prof. Roberto Fabián Regner
 
 ## 📌 Descripción General del Proyecto 
