@@ -83,6 +83,53 @@ El sistema de información está estructurado sobre tres entidades principales q
 | `peso_gramos_requerido` | `FLOAT` | Cantidad de gramos necesarios para el desarrollo del taller. |
 | `alerta_48hs_previas` | `BOOLEAN` | Indicador booleano que alerta si se requiere re-stock antes del taller. |
 
+## Control de Versiones y Gestión de Pull Requests
 
+Para el desarrollo del sistema comercial se utilizó Git y GitHub como herramientas de control de versiones, permitiendo registrar modificaciones, trabajar con ramas secundarias e integrar cambios mediante Pull Requests.
+
+### Estrategia de ramas
+
+Se utilizó la rama principal `main` para mantener la versión integrada del proyecto.
+
+Durante el desarrollo se emplearon dos ramas secundarias:
+
+- **`emilianojmillan-sudo-patch-1`:** utilizada para actualizar la documentación del proyecto, incorporando detalles del sistema y un diccionario de datos.
+- **`Desarrollar-Funciones-que-llamará-el-Menú-de-Interacción`:** utilizada para desarrollar e integrar funcionalidades relacionadas con el menú de interacción del usuario.
+
+### Pull Request #1 — Actualización de documentación
+
+El primer Pull Request tuvo como objetivo incorporar mejoras en el archivo README.md, agregando información del proyecto y su diccionario de datos.
+
+Se registró un comentario explicando las modificaciones y posteriormente otro indicando la aprobación de la integración.
+
+El Pull Request fue fusionado desde la rama `emilianojmillan-sudo-patch-1` hacia la rama de desarrollo del menú de interacción.
+
+**Resultado:** documentación actualizada e incorporada a la rama de desarrollo.
+
+### Pull Request #2 — Integración de funcionalidades
+
+El segundo Pull Request tuvo como objetivo incorporar los cambios desarrollados en la rama del menú de interacción a la rama principal `main`.
+
+La integración incluyó tres commits relacionados con el desarrollo del menú, las modificaciones del README y la integración previa del Pull Request #1.
+
+El Pull Request fue fusionado correctamente en `main`, quedando los cambios incorporados a la versión principal del proyecto.
+
+**Resultado:** integración de las funcionalidades y la documentación en la rama principal.
+
+### Revisión individual
+
+Debido al carácter individual del proyecto, la gestión de los Pull Requests fue realizada por el propio desarrollador.
+
+En el primer Pull Request se documentaron las modificaciones y se dejó constancia de la decisión de integración mediante comentarios.
+
+En el segundo Pull Request se realizó la integración de los cambios en la rama principal. No se registró una revisión formal de GitHub.
+
+Este procedimiento permitió organizar el desarrollo en ramas, conservar el historial de modificaciones y documentar las integraciones realizadas.
+
+### Evidencia
+
+- [Pull Request #1](https://github.com/emilianojmillan-sudo/sistema-comercial-de-stock-compra-y-venta-de-lanas-t.p.i.-org.empresarial/pull/1)
+- [Pull Request #2](https://github.com/emilianojmillan-sudo/sistema-comercial-de-stock-compra-y-venta-de-lanas-t.p.i.-org.empresarial/pull/2)
+- [Historial de commits](https://github.com/emilianojmillan-sudo/sistema-comercial-de-stock-compra-y-venta-de-lanas-t.p.i.-org.empresarial/commits/main)
 
 
