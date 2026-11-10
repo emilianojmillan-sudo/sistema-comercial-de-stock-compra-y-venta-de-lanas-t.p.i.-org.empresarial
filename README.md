@@ -67,7 +67,7 @@ El sistema de información está estructurado sobre tres entidades principales q
 | `id_pesaje` | `INTEGER` | Identificador único de cada pesaje. | 
 | `id_producto` | `INTEGER` | Clave foránea al producto asociado (obtenido tras ingresar marca y color). |
 | `peso_gramos` | `FLOAT` | Cantidad exacta de gramos enviada por la báscula al programa. |
-| `precio_total` | `FLOAT` | Importe total calculado (`precio_por_kilo` * `peso_gramos`). |
+| `precio_total` | `FLOAT` | Importe total calculado (`precio_por_kilo` * (`peso_gramos` / `1000`). |
 | `fecha_hora_operacion` | `DATETIME` | Fecha y hora de la operación para control al finalizar la jornada. |
 | `canal_venta` | `INTEGER` | Origen de la transacción (`1`: Tienda física, `2`: Tienda web). |
 
