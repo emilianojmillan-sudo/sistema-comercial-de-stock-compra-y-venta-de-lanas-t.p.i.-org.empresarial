@@ -77,6 +77,13 @@ El sistema de información está estructurado sobre tres entidades principales q
 **Propósito:** Controla los materiales reservados para las clases presenciales de tejido, garantizando el abastecimiento previo
 | Nombre del Campo | Tipo de Dato | Descripción Funcional | 
 | :--- | :--- | :--- |
+| `id_taller` | `INTEGER` | Identificador único del taller presencial. |
+| `capacidad_maxima` | `INTEGER` | Capacidad máxima de alumnos. |
+| `inscripciones_confirmadas` | `INTEGER` | Alumnos con inscripciones confirmadas. |
+| `cupos_disponibles` | `INTEGER` | Capacidad máxima menos inscripciones confirmadas. |
+| `fecha_hora_solicitud` | `DATETIME` | Fecha y hora en la que se recibió la solicitud. |
+| `fecha_hora_notificacion` | `DATETIME` | Fecha y hora en la que notificó al administrador. |
+| `estado_isncripcion` | `VARCHAR / STRING` | Estado de la solicitud: “pendiente”, “confirmada” o “cancelada”. |
 | `id_reserva` | `INTEGER` | Identificador único del material asignado para el taller presencial. |
 | `id_producto` | `INTEGER` | Clave foránea al producto en la base de datos. |
 | `fecha_taller` | `DATETIME` | Fecha en la que se dictará la clase de tejido. |
